@@ -12,12 +12,6 @@ echo ${title} ' by ' ${author} 'has been added to books.txt'
 # Wait 3 seconds for the message to be read
 sleep 2
 
-
-# The gmail from which it is going to be sent is requested
-
-
-# Send email to user
-mail -s 'Book List' catalinaforerosuarez@gmail.com books.txt
 # Clean Screen
 clear
 # Confirmation message that the email was sent successfully
